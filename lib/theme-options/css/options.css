@@ -1,0 +1,242 @@
+/*
+ *
+ * cp Theme Options Tabs
+ *
+ */
+
+#cp-wrap .wrap h3, #cp-wrap .wrap table {
+	display: none;
+}
+#cp-wrap textarea {
+	width: 25em;
+}
+#cp-wrap .description {
+	margin-left: 2em;
+	font-size: 10px;
+	color: #999;
+	font-style: normal;
+	vertical-align: middle !important;
+	overflow: hidden;
+}
+#cp-wrap input.color-text {
+	width: 17.5em;
+}
+#cp-wrap input.checkbox, #cp-wrap input.radio {
+	margin-right: 1em;
+}
+#cp-wrap .submit {
+	float: left;
+}
+#cp-wrap .reset {
+	float: right;
+	padding: 1.5em 0;
+	margin: 5px 0 5px 1.5em;
+}
+#cp-wrap img {
+	max-width: 250px;
+	height: auto;
+}
+#cp-wrap .ui-tabs-nav {
+	border-bottom: 1px solid #ccc;
+	height: 31px;
+	margin: 20px 0;
+	padding: 0;
+}
+#cp-wrap .ui-tabs-nav li {
+	display: block;
+	float: left;
+	margin: 0;
+}
+#cp-wrap .ui-tabs-nav li a {
+	border-style: solid;
+	border-color: #CCC #CCC #F9F9F9;
+	border-width: 1px 1px 0;
+	color: #C1C1C1;
+	font-size: 14px;
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	line-height: 16px;
+	display: inline-block;
+	padding: 6px 12px 8px;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0;
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 6px -1px 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+#cp-wrap .ui-tabs-nav li a:hover {
+	color: #D54E21;
+}
+#cp-wrap .ui-tabs-nav li.ui-tabs-selected a,
+#cp-wrap .ui-tabs-nav li.ui-state-active a {
+	border-width: 1px;
+	color: #464646;
+	border-bottom-color: #fff;
+}
+#cp-wrap .ui-tabs-panel {
+	clear: both;
+}
+#cp-wrap .ui-tabs-panel h3 {
+	font: italic normal normal 24px/29px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	margin: 0;
+	padding: 0 0 5px;
+	line-height: 35px;
+	text-shadow: 0 1px 0 #fff;
+}
+#cp-wrap .ui-tabs-panel h4 {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 1em 0;
+}
+#cp-wrap .theme-info {
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	font-size: 11px;
+	text-align: right;
+}
+#cp-wrap .theme-info li {
+	display: inline;
+	margin-right: 6px;
+	padding-left: 6px;
+	border-left: 1px solid #ddd;
+}
+#cp-wrap .theme-info li:first-child {
+	padding-left: 0;
+	border-left: 0;
+}
+
+/* Radio Images */
+.cp-radio-img input[type='radio']{
+	display:none;
+}
+.cp-radio-img,
+.cp-radio-img-selected{
+	margin:6px;
+	display:inline-block;
+	padding:10px;
+	text-align: center;
+}
+.cp-radio-img-selected{
+	background-color:#eee;
+}
+.cp-radio-img img,
+.cp-radio-img-selected img{
+	border-width:4px;
+	border-style: solid;
+}
+.cp-radio-img img{
+	border-color:#ddd;
+}
+.cp-radio-img-selected img{
+		border-color:#bbb;
+}
+
+/* Color Picker */
+#cp-wrap .farb-popup {
+	z-index: 100;
+	background:#f9f9f9;
+	border:1px solid #eee;
+	position:absolute;
+	display:none;
+}
+
+/* Slider */
+#cp-wrap ul#slideshow_list {
+	width:100%;
+}
+#cp-wrap .slide-desc {
+	margin-left: 0;
+}
+#cp-wrap #slideshow_list li.slide {
+border: 1px solid #CCC;
+padding: 10px;
+background: #F9F9F9;
+margin-bottom: 30px;
+margin-right:10px;
+float:left;
+cursor: move;
+clear:left;
+}
+#cp-wrap ul#slideshow_list li.list-view {clear:none;}
+#cp-wrap ul#slideshow_list li.slide .description {
+	width:100%;
+	float:left;
+	clear:left;
+}
+#cp-wrap #slideshow_list li input, #cp-wrap #slideshow_list li .description, #cp-wrap #slideshow_list li textarea, #cp-wrap #slideshow_list li .upbutton  {
+	float:left;
+}
+#cp-wrap .add-image-button {
+	float:left;clear:left;
+}
+#cp-wrap #cp_theme_options .forminp span#slides-details-button {
+	font-size:16px !important;
+}
+#cp-wrap #slides-details-button {
+	display:block;
+	height:14px;
+	width:37px;
+	background:url("../img/mode.png") top left;
+	margin-top:10px;
+}
+#cp-wrap span.list {
+	background:url("../img/mode.png") bottom left !important;
+}
+#cp-wrap #slideshow_list li.list-view input, #cp-wrap #slideshow_list li.list-view .description, #cp-wrap #slideshow_list li.list-view textarea, #cp-wrap #slideshow_list li.list-view .upbutton {
+	display:none;
+}
+#cp-wrap #slideshow_list li.list-view div.previewimg {
+	height:100px;
+	width:157px;
+}
+#cp-wrap #slideshow_list li.list-view img.uploadedimg {
+	max-width:100%;
+	max-height:100%;
+}
+#cp-wrap .submitdelete {
+	color: red;
+	border-bottom-color: red;
+}
+#cp-wrap .submitdelete:hover {
+	cursor: pointer;
+}
+
+/* Google Fonts */
+.box { margin: 24px 0; padding: 20px; background: #f9f9f9; position: relative; }
+.box h2 { font-size: 42px; }
+.box p { font-size: 14px; line-height: 1.4; }
+.box .note { }
+ 
+.oswald { font-family: 'Oswald', sans-serif; }
+.lora { font-family: 'Lora', serif; }
+.lobster { font-family: 'Lobster', Georgia, Times, serif; }
+.cabin { font-family: 'Cabin', Helvetica, Arial, sans-serif; }
+.raleway { font-family: 'Raleway', Helvetica, Arial, sans-serif; }
+.goudy-bookletter-1911 { font-family: 'Goudy Bookletter 1911', Georgia, Times, serif; }
+.allerta { font-family: 'Allerta', Helvetica, Arial, sans-serif; }
+.crimson-text { font-family: 'Crimson Text', Georgia, Times, serif; }
+.arvo { font-family: 'Arvo', Georgia, Times, serif; }
+.pt-sans { font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+.dancing-script { font-family: 'Dancing Script', Georgia, Times, serif; }
+.josefin-sans { font-family: 'Josefin Sans', Helvetica, Arial, sans-serif; }
+.allan { font-family: 'Allan', Helvetica, Arial, sans-serif; }
+.cardo { font-family: 'Cardo', Georgia, Times, serif; }
+.molengo { font-family: 'Molengo', Georgia, Times, serif; }
+.lekton { font-family: 'Lekton', Helvetica, Arial, sans-serif; }
+.bevan { font-family: 'Bevan', cursive; }
+.open-sans { font-family: 'Open Sans', sans-serif; }
+.droid-serif { font-family: 'Droid Serif' serif; }
+.prociono { font-family: 'Prociono' serif; }
+.rokkitt { font-family: 'Rokkitt' serif; }
+.junge { font-family: 'Junge' serif; }
+.quicksand { font-family: 'Quicksand' sans-serif; }
+.news-cycle { font-family: 'News Cycle' sans-serif; }
+.anton { font-family: 'Anton' sans-serif; }
+.shadows-into-light-two { font-family: 'Shadows Into Light Two' cursive; }
+.bitter { font-family: 'Bitter' serif; }
